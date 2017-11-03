@@ -4,7 +4,9 @@ _dist/
 tmp/
 design/
 manifest/
+coverage/
 .sublime-gulp.cache
+yarn-error.log
 .sass-cache
 .DS_Store
 npm-debug.log
