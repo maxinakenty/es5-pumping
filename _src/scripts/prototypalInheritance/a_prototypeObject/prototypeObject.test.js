@@ -28,7 +28,6 @@ describe('prototype object', function() {
     });
   });
 
-
   describe('data object', function() {
     it('should data does\'t have a  built-in method toString', function() {
       expect(data.toString).toBe(undefined);
