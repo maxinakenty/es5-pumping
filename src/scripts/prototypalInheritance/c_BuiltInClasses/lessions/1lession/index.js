@@ -1,3 +1,3 @@
 var testObj = {};
 
-export default testObj;
+module.exports = testObj;
