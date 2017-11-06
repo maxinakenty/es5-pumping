@@ -1,9 +1,10 @@
-function Animal(name) {}
+function Animal(name) {
+  this.name = name;
+  this.speed = 0;
+}
 
 Animal.prototype.run = function(speed) {
   this.speed += speed;
-
-  return this.name + ' бежит!Скорость ' + this.speed;
 };
 
 Animal.prototype.stop = function () {
@@ -20,8 +21,6 @@ Rabbit.prototype = Object.create(Animal.prototype);
 Rabbit.prototype.constructor = Rabbit;
 Rabbit.prototype.jump = function() {
   this.speed++;
-
-  return this.name + ' прыгает.';
 };
 
 Rabbit.prototype.run = function() {

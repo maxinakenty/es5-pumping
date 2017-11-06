@@ -6,10 +6,6 @@ describe('class inheritance', function() {
     expect(rabbit.name).toBe('Roger');
   });
 
-  it('should has jump method', function() {
-    expect(rabbit.run(10)).toBe('Roger бежит!Скорость 10');
-  });
-
   it('should has stop method', function() {
     expect(rabbit.stop()).toBe('Roger cтоит');
   });
